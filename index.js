@@ -63,7 +63,7 @@ app.use((req, res, next) => {
     properties,
     context
   })
-
+  console.log(`userId[${userId}] anonymousId[${anonymousId}]`)
   // proceed!
   next()
 })
